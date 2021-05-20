@@ -1,0 +1,96 @@
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.swiper-pagination-bullet
+{
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 5;
+}
+.swiper-pagination-bullet-active
+{
+    background-color: white;
+    padding: 5px;
+}
+
+.swiper-slide .title {
+    font-size: 60px;
+    font-weight: 300;
+    font-family: fantasy;
+}
+.swiper-slide .title span {
+    color: yellow;
+}
+
+
+
+.swiper-slide .subtitle {
+    font-size: 21px;
+}
+
+.swiper-slide .text {
+    padding-top: 20%;
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.swiper-slide .text .btn 
+{
+    padding: 10px;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+.swiper-slide .text .btn:hover
+{
+    background-color: rgb(230, 230, 0);
+}
+
+@media screen and (max-width: 600px) {
+    
+    .swiper-slide .text 
+    {
+        padding: 20px;
+        padding-top: 60%;
+    }
+
+    .swiper-slide .title {
+        font-size: 30px;
+    }
+
+
+
+}
